@@ -1,0 +1,11 @@
+iframe{
+        
+       width: 600%;
+       height: 800px;
+       margin-left:auto;
+        
+}
+.cursiva{
+       font-style:italic !important;
+       text-align: center !important;
+}

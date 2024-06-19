@@ -1,0 +1,101 @@
+/* estilos.css */
+.imagen-superior {
+  width: 100%;
+  height: auto;
+}
+
+
+hr{
+    width: 111%;
+    margin-left: -25px;
+}
+.cursiva{
+    font-style:italic !important;
+    text-align: center !important;  
+    font-size: 1em;
+}
+.text-center{text-align: center !important;
+  color: chocolate;
+ 
+
+}
+
+.centro {
+    text-align: center !important;
+    color: chocolate;
+    font-style: italic;
+  }
+  @media only screen and (max-width: 600px) {
+    /* Estilos para pantallas con un ancho máximo de 600px */
+  }
+
+
+      /* Estilos para el texto principal */
+      .image-container .text-principal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5em;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        font-style: oblique;
+    }
+
+    /* Estilos para el texto secundario */
+    .image-container .text-secundario {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5em;
+        color: white;
+        font-style: italic;
+    }
+  .cent {
+    text-align: center!important;
+  }
+
+  .contenedor-botones {
+    text-align: center; /* Centra los botones horizontalmente */
+    color: chocolate; /* Color del texto */
+    }
+  .boton {
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: chocolate; /* Color chocolate */
+  color: #ffffff; /* Color del texto */
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px; /* Espacio entre los botones */
+  }
+
+  .H { 
+    text-align: center;
+    color: chocolate;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+    
+}
+
+.gallery img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+iframe{
+        
+  width: 600%;
+  height: 800px;
+  margin-left:auto;
+   
+}
